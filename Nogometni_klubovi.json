@@ -1,0 +1,492 @@
+[
+	{
+		"idkluba": 1,
+		"naziv": "GNK Dinamo Zagreb",
+		"datumosn": "1945-06-09",
+		"liga": "SuperSport Hrvatska nogometna liga",
+		"sjedište": "Zagreb",
+		"stadion": "Stadion Maksimir",
+		"glavnisponzor": "PSK",
+		"idtrener": 1,
+		"trenerime": "Ante",
+		"trenerprezime": "Čačić",
+		"igrači": [
+			{
+				"idigrač": 1,
+				"ime": "Mislav",
+				"prezime": "Oršić",
+				"dob": 29,
+				"idkluba": 1
+			},
+			{
+				"idigrač": 2,
+				"ime": "Josip",
+				"prezime": "Mišić",
+				"dob": 28,
+				"idkluba": 1
+			},
+			{
+				"idigrač": 3,
+				"ime": "Arijan",
+				"prezime": "Ademi",
+				"dob": 31,
+				"idkluba": 1
+			}
+		]
+	},
+	{
+		"idkluba": 2,
+		"naziv": "HNK Hajduk Split",
+		"datumosn": "1911-02-13",
+		"liga": "SuperSport Hrvatska nogometna liga",
+		"sjedište": "Split",
+		"stadion": "Stadion Poljud",
+		"glavnisponzor": "Tommy",
+		"idtrener": 2,
+		"trenerime": "Mislav",
+		"trenerprezime": "Karoglan",
+		"igrači": [
+			{
+				"idigrač": 4,
+				"ime": "Marko",
+				"prezime": "Livaja",
+				"dob": 29,
+				"idkluba": 2
+			},
+			{
+				"idigrač": 5,
+				"ime": "Stipe",
+				"prezime": "Biuk",
+				"dob": 19,
+				"idkluba": 2
+			},
+			{
+				"idigrač": 6,
+				"ime": "Emir",
+				"prezime": "Sahiti",
+				"dob": 23,
+				"idkluba": 2
+			}
+		]
+	},
+	{
+		"idkluba": 3,
+		"naziv": "HNK Rijeka",
+		"datumosn": "1946-07-29",
+		"liga": "SuperSport hrvatska nogometna liga",
+		"sjedište": "Rijeka",
+		"stadion": "Stadion Rujevica",
+		"glavnisponzor": "SAVA osiguranje",
+		"idtrener": 3,
+		"trenerime": "Serse",
+		"trenerprezime": "Cosmi",
+		"igrači": [
+			{
+				"idigrač": 7,
+				"ime": "Alen",
+				"prezime": "Halilović",
+				"dob": 26,
+				"idkluba": 3
+			},
+			{
+				"idigrač": 8,
+				"ime": "Prince",
+				"prezime": "Ampem",
+				"dob": 24,
+				"idkluba": 3
+			},
+			{
+				"idigrač": 9,
+				"ime": "Alen",
+				"prezime": "Grgić",
+				"dob": 28,
+				"idkluba": 3
+			}
+		]
+	},
+	{
+		"idkluba": 4,
+		"naziv": "NK Varaždin",
+		"datumosn": "1931-01-23",
+		"liga": "SuperSport hrvatska nogometna liga",
+		"sjedište": "Varaždin",
+		"stadion": "Stadion Varteks",
+		"glavnisponzor": null,
+		"idtrener": 4,
+		"trenerime": "Mario",
+		"trenerprezime": "Kovačević",
+		"igrači": [
+			{
+				"idigrač": 10,
+				"ime": "Tonio",
+				"prezime": "Teklić",
+				"dob": 23,
+				"idkluba": 4
+			},
+			{
+				"idigrač": 11,
+				"ime": "Oliver",
+				"prezime": "Zelenika",
+				"dob": 29,
+				"idkluba": 4
+			},
+			{
+				"idigrač": 12,
+				"ime": "Fran",
+				"prezime": "Brodić",
+				"dob": 25,
+				"idkluba": 4
+			}
+		]
+	},
+	{
+		"idkluba": 5,
+		"naziv": "NK Slaven Belupo Koprivnica",
+		"datumosn": "1907-06-14",
+		"liga": "SuperSport Hrvatska nogometna liga",
+		"sjedište": "Koprivnica",
+		"stadion": "Gradski stadion Koprivnica",
+		"glavnisponzor": "Belupo",
+		"idtrener": 5,
+		"trenerime": "Zoran",
+		"trenerprezime": "Zekić",
+		"igrači": [
+			{
+				"idigrač": 13,
+				"ime": "Arber",
+				"prezime": "Hoxha",
+				"dob": 24,
+				"idkluba": 5
+			},
+			{
+				"idigrač": 14,
+				"ime": "Ante",
+				"prezime": "Crnac",
+				"dob": 18,
+				"idkluba": 5
+			},
+			{
+				"idigrač": 15,
+				"ime": "Ivan",
+				"prezime": "Krstanović",
+				"dob": 39,
+				"idkluba": 5
+			}
+		]
+	},
+	{
+		"idkluba": 6,
+		"naziv": "NK Lokomotiva Zagreb",
+		"datumosn": "1914-08-25",
+		"liga": "SuperSport Hrvatska nogometna liga",
+		"sjedište": "Zagreb",
+		"stadion": "Stadion Kranjčevićeva",
+		"glavnisponzor": null,
+		"idtrener": 6,
+		"trenerime": "Goran",
+		"trenerprezime": "tomić",
+		"igrači": [
+			{
+				"idigrač": 16,
+				"ime": "Josip",
+				"prezime": "Pivarić",
+				"dob": 33,
+				"idkluba": 6
+			},
+			{
+				"idigrač": 17,
+				"ime": "Indrit",
+				"prezime": "Tuci",
+				"dob": 22,
+				"idkluba": 6
+			},
+			{
+				"idigrač": 18,
+				"ime": "Ibrahim",
+				"prezime": "Aliyu",
+				"dob": 20,
+				"idkluba": 6
+			}
+		]
+	},
+	{
+		"idkluba": 7,
+		"naziv": "HNK Šibenik",
+		"datumosn": "1932-12-01",
+		"liga": "SuperSport Hrvatska nogometna liga",
+		"sjedište": "Šibenik",
+		"stadion": "Stadion Šubićevac",
+		"glavnisponzor": null,
+		"idtrener": 7,
+		"trenerime": "Mario",
+		"trenerprezime": "Cvitanović",
+		"igrači": [
+			{
+				"idigrač": 19,
+				"ime": "Ivan",
+				"prezime": "Dolček",
+				"dob": 22,
+				"idkluba": 7
+			},
+			{
+				"idigrač": 20,
+				"ime": "Haruki",
+				"prezime": "Arai",
+				"dob": 24,
+				"idkluba": 7
+			},
+			{
+				"idigrač": 21,
+				"ime": "Duje",
+				"prezime": "Čop",
+				"dob": 32,
+				"idkluba": 7
+			}
+		]
+	},
+	{
+		"idkluba": 8,
+		"naziv": "NK Istra 1961",
+		"datumosn": "1948-12-04",
+		"liga": "SuperSport Hrvatska nogometna liga",
+		"sjedište": "Pula",
+		"stadion": "Nogometni stadion Aldo Drosina",
+		"glavnisponzor": null,
+		"idtrener": 8,
+		"trenerime": "Krunoslav",
+		"trenerprezime": "Rendulić",
+		"igrači": [
+			{
+				"idigrač": 22,
+				"ime": "Gonzalo",
+				"prezime": "Collao",
+				"dob": 25,
+				"idkluba": 8
+			},
+			{
+				"idigrač": 23,
+				"ime": "Ante",
+				"prezime": "Erceg",
+				"dob": 32,
+				"idkluba": 8
+			},
+			{
+				"idigrač": 24,
+				"ime": "Prince",
+				"prezime": "Mumba",
+				"dob": 21,
+				"idkluba": 8
+			}
+		]
+	},
+	{
+		"idkluba": 9,
+		"naziv": "NK Osijek",
+		"datumosn": "1947-02-27",
+		"liga": "SuperSport Hrvatska nogometna liga",
+		"sjedište": "Osijek",
+		"stadion": "Stadion Gradski vrt",
+		"glavnisponzor": "Meszaros",
+		"idtrener": 9,
+		"trenerime": "Rene",
+		"trenerprezime": "Poms",
+		"igrači": [
+			{
+				"idigrač": 25,
+				"ime": "Ivica",
+				"prezime": "Ivušić",
+				"dob": 27,
+				"idkluba": 9
+			},
+			{
+				"idigrač": 26,
+				"ime": "Kristijan",
+				"prezime": "Lovrić",
+				"dob": 26,
+				"idkluba": 9
+			},
+			{
+				"idigrač": 27,
+				"ime": "Laszlo",
+				"prezime": "Kleinheisler",
+				"dob": 28,
+				"idkluba": 9
+			}
+		]
+	},
+	{
+		"idkluba": 10,
+		"naziv": "HNK Gorica",
+		"datumosn": "2009-08-04",
+		"liga": "SuperSport Hrvatska nogometna liga",
+		"sjedište": "Velika Gorica",
+		"stadion": "Gradski stadion Velika Gorica",
+		"glavnisponzor": null,
+		"idtrener": 10,
+		"trenerime": "Igor",
+		"trenerprezime": "Angelovski",
+		"igrači": [
+			{
+				"idigrač": 28,
+				"ime": "Joey",
+				"prezime": "Suk",
+				"dob": 32,
+				"idkluba": 10
+			},
+			{
+				"idigrač": 29,
+				"ime": "Dominik",
+				"prezime": "Prokop",
+				"dob": 25,
+				"idkluba": 10
+			},
+			{
+				"idigrač": 30,
+				"ime": "Jozo",
+				"prezime": "Šimunović",
+				"dob": 28,
+				"idkluba": 10
+			}
+		]
+	},
+	{
+		"idkluba": 11,
+		"naziv": "NK Rudeš Zagreb",
+		"datumosn": "2009-08-04",
+		"liga": "Prva nogometna liga",
+		"sjedište": "Rudeš u Zagrebu",
+		"stadion": "Športski centar Rudeš",
+		"glavnisponzor": null,
+		"idtrener": 11,
+		"trenerime": "Ivica",
+		"trenerprezime": "Landeka",
+		"igrači": [
+			{
+				"idigrač": 31,
+				"ime": "Gabriel",
+				"prezime": "Popovic",
+				"dob": 19,
+				"idkluba": 11
+			},
+			{
+				"idigrač": 32,
+				"ime": "Ivan",
+				"prezime": "Perić",
+				"dob": 20,
+				"idkluba": 11
+			}
+		]
+	},
+	{
+		"idkluba": 12,
+		"naziv": "HNK Cibalia",
+		"datumosn": "1919-07-06",
+		"liga": "Prva nogometna liga",
+		"sjedište": "Vinkovci",
+		"stadion": "Stadion HNK Cibalia Vinkovci",
+		"glavnisponzor": null,
+		"idtrener": 12,
+		"trenerime": "Petar",
+		"trenerprezime": "Tomić",
+		"igrači": [
+			{
+				"idigrač": 33,
+				"ime": "Marijan",
+				"prezime": "Oršolić",
+				"dob": 24,
+				"idkluba": 12
+			},
+			{
+				"idigrač": 34,
+				"ime": "Filip",
+				"prezime": "Jazvić",
+				"dob": 32,
+				"idkluba": 12
+			}
+		]
+	},
+	{
+		"idkluba": 13,
+		"naziv": "HNK Vukovar 91",
+		"datumosn": "1946-08-15",
+		"liga": "Prva nogometna liga",
+		"sjedište": "Vukovar",
+		"stadion": "Gradski stadion",
+		"glavnisponzor": null,
+		"idtrener": 13,
+		"trenerime": "Miroslav",
+		"trenerprezime": "Bojko",
+		"igrači": [
+			{
+				"idigrač": 35,
+				"ime": "Ivan",
+				"prezime": "Aleksić",
+				"dob": 29,
+				"idkluba": 13
+			},
+			{
+				"idigrač": 36,
+				"ime": "Josip",
+				"prezime": "Barišić",
+				"dob": 35,
+				"idkluba": 13
+			}
+		]
+	},
+	{
+		"idkluba": 14,
+		"naziv": "NK Dugopolje",
+		"datumosn": "1952-07-12",
+		"liga": "Prva nogometna liga",
+		"sjedište": "Dugopolje",
+		"stadion": "Sportski centar Hrvatski vitezovi",
+		"glavnisponzor": null,
+		"idtrener": 14,
+		"trenerime": "Jure",
+		"trenerprezime": "Srzić",
+		"igrači": [
+			{
+				"idigrač": 37,
+				"ime": "Filip",
+				"prezime": "Ambrož",
+				"dob": 18,
+				"idkluba": 14
+			},
+			{
+				"idigrač": 38,
+				"ime": "Marin",
+				"prezime": "Ljubičić",
+				"dob": 34,
+				"idkluba": 14
+			}
+		]
+	},
+	{
+		"idkluba": 15,
+		"naziv": "NK Solin",
+		"datumosn": "1919-09-21",
+		"liga": "Prva nogometna liga",
+		"sjedište": "Solin",
+		"stadion": "Stadion pokraj Jadra",
+		"glavnisponzor": null,
+		"idtrener": 15,
+		"trenerime": "Ivan",
+		"trenerprezime": "Matić",
+		"igrači": [
+			{
+				"idigrač": 39,
+				"ime": "Duje",
+				"prezime": "Ninčević",
+				"dob": 25,
+				"idkluba": 15
+			},
+			{
+				"idigrač": 40,
+				"ime": "Sylvanus",
+				"prezime": "Nimely",
+				"dob": 24,
+				"idkluba": 15
+			}
+		]
+	}
+]

@@ -1,0 +1,175 @@
+{
+    "openapi": "1.0.0",
+    "info": {
+        "info": "Moja usluga",
+        "lang": "hr",
+        "version": "1.0",
+        "licence": "Creative Commons Zero v1.0 Universal",
+        "author": "Luka Đud",
+        "contact": "luka.dud@fer.hr"
+    },
+    "paths": {
+        "/getFull":{
+            "get":{
+                "summary": "Dohvati sve resurse povezane sa svim njihovim vanjskim relacijama",
+                "description": "Vraća kolekciju resursa",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": null,
+                "responses": {
+                    "200": {
+                        "description": "Ispravno dohvaćeni svi redovi"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    },
+                    "500": {
+                        "description": "Internal service error"
+                    }
+                }
+            }
+        },
+        "/getFull/{id}":{
+            "get":{
+                "summary": "Dohvati resurs iz skupa po zadanom id-u",
+                "description": "Vraća kolekciju resursa",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "identifikator",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Ispravno dohvaćeni svi redovi"
+                    },
+                    "400": {
+                        "description": "Netočan ID"
+                    },
+                    "500": {
+                        "description": "Internal service error"
+                    }
+                }
+            }
+        },
+        "/getKlubovi":{
+            "get":{
+                "summary": "Dohvati sve klubove",
+                "description": "Vraća kolekciju resursa",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": null,
+                "responses": {
+                    "200": {
+                        "description": "Ispravno dohvaćeni svi klubovi"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    },
+                    "500": {
+                        "description": "Internal service error"
+                    }
+                }
+            }
+        },
+        "/getIgraci":{
+            "get":{
+                "summary": "Dohvati sve igrače",
+                "description": "Vraća kolekciju resursa",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": null,
+                "responses": {
+                    "200": {
+                        "description": "Ispravno dohvaćeni svi igrači"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    },
+                    "500": {
+                        "description": "Internal service error"
+                    }
+                }
+            }
+        },
+        "/getTreneri":{
+            "get":{
+                "summary": "Dohvati sve trenere",
+                "description": "Vraća kolekciju resursa",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": null,
+                "responses": {
+                    "200": {
+                        "description": "Ispravno dohvaćeni svi treneri"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    },
+                    "500": {
+                        "description": "Internal service error"
+                    }
+                }
+            }
+        },
+        "/deleteKlub/{id}":{
+            "delete":{
+                "summary": "Izbriši klub sa zadanim id-em",
+                "description": null,
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "identifikator",
+                        "required": true,
+                        "type": "integer",
+                        "format": "int64"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Ispravno izbrisan klub sa zadanim id-em"
+                    },
+                    "400": {
+                        "description": "Ne postoji klub sa zadanim id-em"
+                    },
+                    "500": {
+                        "description": "Internal service error"
+                    }
+                }
+            }
+        },
+        "/getOpenApi":{
+            "get":{
+                "summary": "Dohvati openapi.json",
+                "description": "Vraća jedinstveni resurs",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": null,
+                "responses": {
+                    "200": {
+                        "description": "Uspješno dohvaćen resurs"
+                    },
+                    "500": {
+                        "description": "Could not download file"
+                    }
+                }
+            }
+        }
+    }
+}

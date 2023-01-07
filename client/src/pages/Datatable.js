@@ -3,9 +3,11 @@ import styled from "styled-components";
 import "../components/App.css";
 import { useState, useEffect } from "react";
 import { getKlubovi, getFull, exportCSV, exportJSON, getIgraci } from "../utils/fetch";
+import { useAuth0 } from '@auth0/auth0-react';
 
 
 import DataTable from 'react-data-table-component';
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -15,10 +17,10 @@ const Datatable = (props) => {
   const [columns, setColumns] = useState([]);
   const [filter, setFilter] = useState("");
   const [filterOption, setFilterOption] = useState("wildcard");
+  let navigate = useNavigate();
+  const {isAuthenticated } = useAuth0();
   
-  
-  
-  //console.log(columns)
+  //nsole.log(columns)
   let options=[]
   if(klubovi[0]){
     for(var i of Object.keys(klubovi[0])) options.push(<option key={i} value={i}>{i}</option>)
@@ -49,10 +51,11 @@ const Datatable = (props) => {
  
   useEffect(() => {
     const res = getFull().then((item) => {
-      setKluboviList(item.klubovi);
+      console.log(item.response);
+      setKluboviList(item.response);
       let tempRedovi=[];
       
-      for(let i of Object.keys(item.klubovi[0])){
+      for(let i of Object.keys(item.response[0])){
         tempRedovi.push({name: i, selector: (row) => row[i]})
       }
 
@@ -64,8 +67,10 @@ const Datatable = (props) => {
     setFilter(event.target.value);
   }
   
-  return (<>
-    <center><a href="/"><img class="logo" src="../img/lopta.png" alt="lopta"/></a></center>
+  return (isAuthenticated && (<>
+    <span>
+      <center><a href="/"><img class="logo" src="../img/lopta.png" alt="lopta"/></a></center>
+    </span>
     <TableSection>
         <form onSubmit={(e) => e.preventDefault()}>
             <select value={filterOption} onChange={(e) => setFilterOption(e.target.value)}>
@@ -73,13 +78,15 @@ const Datatable = (props) => {
                 {options}
             </select>
           <input type="text" name="filter" id="filter" placeholder="filter" value={filter} onChange={(event)=>{handleChange(event)}}></input>
+          <a href="./createNew">Create new</a>
         </form>
-        </TableSection>
+    </TableSection>
         <DataTable
             columns={columns}
             data={filtriraniKlubovi}
             pagination
             highlightOnHover
+            onRowClicked={(row) => navigate(`/editKlub/${row.idkluba}`)}
         />
         <ExportButton onClick={()=>exportCSV(filtriraniKlubovi)}>CSV</ExportButton>
         <ExportButton onClick={()=>exportJSON(filtriraniKlubovi)}>JSON</ExportButton>
@@ -87,7 +94,8 @@ const Datatable = (props) => {
           <a hidden id="exportCSV" href="./exportCSV.csv" download="klubovi" target="_blank"></a>
           <a hidden id="exportJSON" href="./exportJSON.json" download="klubovi" target="_blank"></a>
         </div>
-    </>
+    </>)
+   // !isAuthenticated && (<p>Authentication Error</p>)
   );
   
 };

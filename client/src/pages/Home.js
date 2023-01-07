@@ -1,12 +1,20 @@
 import React from "react";
 import styled from "styled-components";
 import "../components/App.css";
+import { useAuth0 } from '@auth0/auth0-react';
+import LogoutButton from "../components/LogoutButton";
+import { Refresh } from "../utils/fetch";
 
 const Home = (props) => {
   
+  const {isAuthenticated } = useAuth0();
+
   return (
-    <>
+    isAuthenticated && (<>
       <div class="zaglavlje">
+        <LogoutButton/>
+        <form><button class="button2" formaction="/profile">Korisnički profil</button></form>
+        <button class="button2" value="Osvježi preslike" onClick={() => Refresh()}>Osvježi preslike</button>
         <h1>Hrvatski nogometni klubovi</h1>
         <center><a href="/datatable"><img class="logo" src="../img/lopta.png" alt="lopta"/></a></center>
       </div>
@@ -47,7 +55,7 @@ const Home = (props) => {
         <a href="../Nogometni_klubovi.csv" download>Download CSV</a>
         <a href="../Nogometni_klubovi.json" download>Download JSON</a>
       </div>
-    </>
+    </>)
   );
   
 };

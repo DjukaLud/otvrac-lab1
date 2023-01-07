@@ -64,3 +64,69 @@ h1{
     display: flex;
     justify-content: space-around;
 }
+
+.divform{
+    background-color: white;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.divformbaby{
+    padding: 5px;
+}
+
+.login{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 300px;
+}
+
+.button{
+    width: 300px;
+    height: 200px;
+    font-size: xx-large;
+    background-color: aliceblue;
+}
+
+.button:hover{
+    background-color: darksalmon;
+}
+
+.button2{
+    width: 130px;
+    height: 60px;
+    font-size: x-large;
+    background-color: aliceblue;
+}
+
+.button2:hover{
+    background-color: darksalmon;
+}
+
+.profilepic{
+    height: 200px;
+    width: 200px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.opis2{
+    margin-top: 80px;
+    width: 40%;
+    background-color:aliceblue;
+    padding: 2%;
+}
